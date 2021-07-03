@@ -17,7 +17,9 @@ Then, type:
 `sudo sh create_hard_drive.sh`
   
 Now, you have created your 40 GB hard drive, if you want smaller or bigger, type:
+
 `qemu-img resize -f qcow2 Qemu_Disk.img 60G`
+
 Replace 60G with your preferred size.
 
 # Step 2. Starting up the VM
