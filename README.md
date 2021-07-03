@@ -12,9 +12,9 @@ To Create the Virtual Disk, just cd to the Vm_Creator directory typing in Termin
 
 <cd path/to/Vm_Creator>.
 
-Then, type 
+Then, type:
 
-<sudo sh create_hard_drive.sh>.
+sudo sh create_hard_drive.sh.
   
 Now, you have created your 40 GB hard drive, if you want smaller or bigger, type:
 <qemu-img resize -f qcow2 Qemu_Disk.img 60G>
