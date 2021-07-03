@@ -38,4 +38,8 @@ Obviously, to start up QEMU, we need to install a OS.
 
 We can do that from ISO file.
 
-But you need to tell QEMU what ISO 
+But you need to tell QEMU what ISO you need to boot.
+
+Just `cd path/to/VM_Creator` and type:
+
+`sudo nano run_vm_from_iso.sh`
