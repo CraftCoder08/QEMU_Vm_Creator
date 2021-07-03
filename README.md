@@ -52,6 +52,8 @@ And you'll get something like this:
 
 ![Screenshot_20210703_201722](https://user-images.githubusercontent.com/76620155/124363489-cd458a80-dc3b-11eb-9b97-82928cda793e.png)
 
+I know that the terminal is in Italian, but it's not important.
+
 You need to replace the `Qemu_CDROM.iso` part with your iso file name.
 
 Else, you can rename the iso file to `Qemu_CDROM.iso`.
