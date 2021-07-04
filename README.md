@@ -26,15 +26,17 @@ Replace 60G with your preferred size.
   
 To start up the VM we have three options:
 
-  Run VM from hard drive;
+ - Run VM from hard drive;
   
-  Run VM from cdrom;
+ - Run VM from cdrom;
   
-  Run from ISO.
+ - Run VM from ISO.
   
 # REMEMBER!!
 
-Coming soon...
+In every .sh file, i set 1GB of RAM to use for my VM.
+
+To edit memory, just edit `-m 1024` to `-m <your desired value>` (i.e. 2GB = 2048, 4GB = 4096 ecc.)
   
 # Step 3a. Starting up from ISO
 
@@ -58,4 +60,12 @@ You need to replace the `Qemu_CDROM.iso` part with your iso file name.
 
 Else, you can rename the iso file to `Qemu_CDROM.iso`.
 
-Continuing...
+Save file with Ctrl+O and close nano with Ctrl+X.
+
+Then type in Terminal `sudo sh run_vm_from_iso.sh`.
+
+After installing the OS, go to step 3c (Starting up from hard drive).
+
+# Step 3b. Starting up from CD-ROM
+
+To boot up the VM from CD-ROM, just `cd path/to/vm/creator` and type `sudo sh `
