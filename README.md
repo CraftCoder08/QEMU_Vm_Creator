@@ -68,4 +68,14 @@ After installing the OS, go to step 3c (Starting up from hard drive).
 
 # Step 3b. Starting up from CD-ROM
 
-To boot up the VM from CD-ROM, just `cd path/to/vm/creator` and type `sudo sh `
+To boot up the VM from CD-ROM, just `cd path/to/vm/creator` and type `sudo sh run_vm_from_cdrom.sh`.
+
+Make sure that your cdrom is mounted in `/dev/cdrom`.
+
+# Step 3c. Starting up from hard drive
+
+You have finally installed the OS.
+
+To start up from your virtual hard drive, type `sudo sh run_vm_from_hard_drive.sh`
+
+If you need the cd (to install software or other stuff), just `sudo nano run_vm_from_hard_drive.sh` and add `-cdrom` option.
