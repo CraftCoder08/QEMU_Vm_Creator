@@ -1,5 +1,4 @@
-# ATTENTION!!
-# THIS SCRIPT IS ONLY COMPATIBLE WITH LINUX AND MACOS!!
+# ATTENTION!! THIS SCRIPT IS ONLY COMPATIBLE WITH LINUX AND MACOS!!
 
 
 
@@ -79,3 +78,7 @@ You have finally installed the OS.
 To start up from your virtual hard drive, type `sudo sh run_vm_from_hard_drive.sh`
 
 If you need the cd (to install software or other stuff), just `sudo nano run_vm_from_hard_drive.sh` and add `-cdrom` option.
+
+# Step 4. Enjoy!
+
+Finally your VM is ready, now enjoy it!!!
