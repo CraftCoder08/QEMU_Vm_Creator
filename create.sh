@@ -193,8 +193,8 @@ elif [[ $qemu == "n" ]]; then
         echo ""
         echo "Please install these packages with:"
         echo ""
-        echo "sudo apt install qemu qemu-utils qemu-system      For Debian/Ubuntu systems"
-        echo "sudo pacman -Syu qemu qemu-utils qemu-system      For Arch Linux systems"
+        echo "sudo apt install qemu-utils qemu-system           For Debian/Ubuntu systems"
+        echo "sudo pacman -Syu qemu-full                        For Arch Linux systems"
         echo "sudo dnf -y install qemu                          For Fedora/Redhat systems"
         echo "sudo zypper install qemu                          For OpenSUSE systems"
 
